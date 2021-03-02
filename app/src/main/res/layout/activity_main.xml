@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="INU_temp"
+        android:text="INU_Login"
         android:textSize="30sp"/>
 
     <EditText
@@ -29,8 +29,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/edit_text_background"
-        android:hint="닉네임"
-        android:textSize="14sp"/>
+        android:hint="아이디"
+        android:textSize="14sp"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/input_password"
@@ -44,7 +45,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/edit_text_background"
         android:hint="●●●●●●"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:inputType="textPassword"/>
 
     <TextView
         android:id="@+id/error_message"
