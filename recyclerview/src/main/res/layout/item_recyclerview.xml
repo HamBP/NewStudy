@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        app:layout_constraintStart_toEndOf="@id/img_profile"
+        app:layout_constraintTop_toTopOf="@id/img_profile"
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:text="안녕하세요? 앱센터입니다.\n3주차 스터디는 리사이클러뷰입니다." />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
