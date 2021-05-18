@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+recyclerview/src/main/java/org/algosketch/recyclerview/model/Configs.kt
