@@ -2,3 +2,4 @@ include ':menu'
 include ':recyclerview'
 include ':app'
 rootProject.name = "NewStudy"
+include ':fragment'
